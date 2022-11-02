@@ -2,9 +2,9 @@ import '../entities/entity_model.dart';
 
 class ModelConnectivity implements EntityModel {
   const ModelConnectivity({
-    required this.internet,
-    required this.wifi,
-    required this.mobileserviceprovider,
+    this.internet = false,
+    this.wifi = false,
+    this.mobileserviceprovider = false,
   });
 
   final bool internet;
